@@ -1,4 +1,4 @@
-name: Use Shared Workflow to Echo ROLE
+name: Use Shared Workflow to Echo ROLE dev
 
 on:
   workflow_dispatch:
