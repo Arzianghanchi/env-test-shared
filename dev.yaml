@@ -1,0 +1,10 @@
+name: Use Shared Workflow to Echo ROLE
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-shared-workflow:
+    uses: Arzianghanchi/env-test/.github/workflows/blank.yml@main
+    with:
+      environment: dev
